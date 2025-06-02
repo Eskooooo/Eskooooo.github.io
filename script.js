@@ -9,7 +9,7 @@ $(document).ready(function () {
   const cake = $('#cake');
   const candle = $('#candle');
 const wishText1 = 'Happy Birthday To You 🎂\nขอให้วันนี้มีแต่รอยยิ้ม ความสุข และเสียงหัวเราะ\nสมหวังทุกเรื่องที่ตั้งใจ มีพลังดี ๆ ล้อมรอบเธอเสมอ\nสุขสันต์วันเกิดนะครับ พี่เมย์ 🎉';
-const wishText2 = 'Happy Birthday To You 🎂\nWishing you a day filled with smiles, laughter, and pure happiness.\nMay all your dreams come true and positive energy surround you always.\nHave a wonderful birthday, P\'Meiji! 🎉';
+const wishText2 = 'Happy Birthday To You \nWishing you a day filled with smiles, laughter, and pure happiness.\nMay all your dreams come true and positive energy surround you always.\nHave a wonderful birthday, P\'Meiji!';
 
 
 
@@ -73,8 +73,7 @@ const wishText2 = 'Happy Birthday To You 🎂\nWishing you a day filled with smi
           }, 2500);
 
           // เริ่มพิมพ์คำอวยพรทันทีหรือรอก็ได้
-          typeWish(wishText1, wishElement);
-        //   typeWish(wishText2, wishElement);
+          typeWish(wishText2, wishElement);
 
         });
       }
